@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 木木林
+title: 沐沐林
 subtitle:
 description:
 author: ycLin
-language:
+language: zh-Hans
 timezone:
 
 # URL
@@ -62,7 +62,7 @@ tag_map:
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
 date_format: YYYY-MM-DD
-time_format: HH:mm:ss
+time_format: H-mm-ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
