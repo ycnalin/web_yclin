@@ -36,3 +36,8 @@ $ hexo deploy
 ```
 
 More info: [Deployment](https://hexo.io/docs/deployment.html)
+
+### Insert image
+``` bash
+$ #{% asset_img image.png This is an example image %}
+```
