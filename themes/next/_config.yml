@@ -181,10 +181,11 @@ social_icons:
 # Blog rolls
 links_icon: link
 links_title: Links
-links_layout: block
-#links_layout: inline
-#links:
-  #Title: http://example.com/
+#links_layout: block
+links_layout: inline
+links:
+ 百度统计: https://mtj.baidu.com/web/welcome/login
+ 腾讯云: https://cloud.tencent.com 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -397,7 +398,7 @@ font:
   # Font settings for <code> and code blocks.
   codes:
     external: true
-    family:
+    family: PT Mono
     size:
 
 
@@ -654,7 +655,7 @@ busuanzi_count:
 
 
 # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO
-baidu_push: true
+baidu_push: false
 
 # Google Calendar
 # Share your recent schedule to others via calendar page
@@ -811,7 +812,7 @@ pace_theme: pace-theme-minimal
 
 # Canvas-nest
 # Dependencies: https://github.com/theme-next/theme-next-canvas-nest
-canvas_nest: false
+canvas_nest: true
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
