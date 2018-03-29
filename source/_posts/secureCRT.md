@@ -12,6 +12,7 @@ SecureCRT是一款支持SSH（SSH1和SSH2）的终端仿真程序，简单地说
 
 配置好SecureCRT软件后，使用Linux的**sz**、**rz**命令可以很方便的在服务器端和客户端之间传递数据。SecureCRT支持Mac、Linux、IOS三个平台，使用非常方便。我使用的是Windows版的SecureCRT，版本是8.1.0。
 
+<!--more-->
 
 使用步骤
 ------------
