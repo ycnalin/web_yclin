@@ -208,7 +208,7 @@
                  <i class="fa fa-eye"></i>
                </span>
                {% if theme.post_meta.item_text %}
-                 <span class="post-meta-item-text">{{__('post.views') + __('symbol.colon') }}</span>
+                 <span class="post-meta-item-text">{{__('post.views') + __(' ') }}</span>
                {% endif %}
                  <span class="leancloud-visitors-count"></span>
              </span>
@@ -235,7 +235,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 {% if theme.symbols_count_time.item_text_post %}
-                  <span class="post-meta-item-text">{{ __('post.symbols_count') + __('symbol.colon') }}</span>
+                  <span class="post-meta-item-text">{{ __('post.symbols_count') + __('symbol.blank') }}</span>
                 {% endif %}
                 <span title="{{ __('post.symbols_count') }}">{#
                 #}{{ symbolsCount(post.content) }}{#

@@ -9,13 +9,11 @@ tags:
 
 
 SecureCRT是一款支持SSH（SSH1和SSH2）的终端仿真程序，简单地说是Windows下登录UNIX或Linux服务器主机的软件。
-
 配置好SecureCRT软件后，使用Linux的**sz**、**rz**命令可以很方便的在服务器端和客户端之间传递数据。SecureCRT支持Mac、Linux、IOS三个平台，使用非常方便。我使用的是Windows版的SecureCRT，版本是8.1.0。
 
 <!--more-->
 
-使用步骤
-------------
+### 使用步骤
 
 #### 1、客户端安装SecureCRT
 下载安装请[转到此处](https://www.vandyke.com/products/securecrt/windows.html "转到此处")
@@ -45,8 +43,8 @@ rz   #客户端输入rz后敲击Enter会自动弹出文件选择框
 `rz -be`的含义是使用二进制流传输，并跳过所有控制字符。详情请查看帮助`rz --help`
 
 <br />
-传输协议简介
-------------
+### 传输协议简介
+
 在SecureCRT下的传输协议主要有**Xmodem**、**Ymodem**、**Zmodem** 3种。[Xmodem](https://en.wikipedia.org/wiki/XMODEM?oldformat=true "Xmodem")是在1977年由Ward christensen创建的用于调制解调器纠错的协议，是一种简单文件传输协议, 具有流量控制功能。Ymodem协议和Zmodem均是对Xmodem协议的改进。
 
 其中ZMODEM是**最有效的一个XMODEM版本**，采用了串流式传输方式，传输速度较快，而且还具有自动改变区段大小和断点续传、快速错误侦测等功能。这是目前最流行的文件传输协议。
