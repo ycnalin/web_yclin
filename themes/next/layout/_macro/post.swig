@@ -136,7 +136,7 @@
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">{{ __('post.comments_count') + __('symbol.colon') }}</span> <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span>
+                  <span class="post-meta-item-text">{{ __('post.comments_count') + __(' ') }}</span> <span class="post-comments-count fb-comments-count" data-href="{{ post.permalink }}" itemprop="commentCount">0</span>
                 </a>
               </span>
             {% elseif theme.disqus.enable and theme.disqus.count %}
@@ -187,14 +187,14 @@
                   <span class="post-meta-item-text">{{ __('post.comments_count') + __('symbol.colon') }}</span> <span class="post-comments-count gitment-comments-count" data-xid="{{ url_for(post.path) }}" itemprop="commentsCount"></span>
                 </a>
               </span>
-            {% elseif theme.valine.enable and theme.valine.appid and theme.valine.appkey %}
+            {% elseif theme.valine.Headerenable and theme.valine.appid and theme.valine.appkey %}
               <span class="post-comments-count">
                 <span class="post-meta-divider">|</span>
                 <span class="post-meta-item-icon">
                   <i class="fa fa-comment-o"></i>
                 </span>
                 <a href="{{ url_for(post.path) }}#comments" itemprop="discussionUrl">
-                  <span class="post-meta-item-text">{{ __('post.comments_count') + __('symbol.colon') }}</span> <span class="post-comments-count valine-comment-count" data-xid="{{ url_for(post.path) }}" itemprop="commentCount"></span>
+                  <span class="post-meta-item-text">{{ __('post.comments_count') + __(' ') }}</span> <span class="post-comments-count valine-comment-count" data-xid="{{ url_for(post.path) }}" itemprop="commentCount"></span>
                 </a>
               </span>
             {% endif %}
@@ -219,7 +219,7 @@
             <span class="post-meta-item-icon"
             {% if not theme.post_meta.item_text %} title="{{ __('post.views') }}" {% endif %}>
             <i class="fa fa-{{ theme.busuanzi_count.post_views_icon }}"></i>
-            {% if theme.post_meta.item_text %} {{__('post.views') + __('symbol.colon') }} {% endif %}
+            {% if theme.post_meta.item_text %} {{__('post.views') + __(' ') }} {% endif %}
             <span class="busuanzi-value" id="busuanzi_value_page_pv" ></span>
             </span>
           {% endif %}
@@ -235,7 +235,7 @@
                   <i class="fa fa-file-word-o"></i>
                 </span>
                 {% if theme.symbols_count_time.item_text_post %}
-                  <span class="post-meta-item-text">{{ __('post.symbols_count') + __('symbol.blank') }}</span>
+                  <span class="post-meta-item-text">{{ __('post.symbols_count') + __(' ') }}</span>
                 {% endif %}
                 <span title="{{ __('post.symbols_count') }}">{#
                 #}{{ symbolsCount(post.content) }}{#

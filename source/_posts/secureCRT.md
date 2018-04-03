@@ -25,7 +25,7 @@ sudo apt install lrzsz
 #### 3、设置上传和下载文件默认路径
 打开SecureCRT：OPTIONS→Session Options→X/Y/Zmodem
 
-<img src="https://blog-1256366574.cos.ap-shanghai.myqcloud.com/images/demo.jpg" width="50%" height="50%">
+<img src="https://blog-1256366574.cos.ap-shanghai.myqcloud.com/images/demo.jpg" width="70%" height="70%">
 
 #### 4、传递文件
 客户端发送文件至服务器端：服务器端 → 客户端

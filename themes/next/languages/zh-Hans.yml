@@ -34,6 +34,10 @@ post:
   visitors: 阅读次数
   wordcount: 字数统计
   min2read: 阅读时长
+  symbols_count: 字数统计
+  symbols_time: 阅读时长约
+  total_symbols: Symbol count total
+  total_time: Reading time total
   totalcount: Site words total count
   copyright:
     author: 本文作者

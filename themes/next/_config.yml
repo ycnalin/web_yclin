@@ -76,11 +76,11 @@ footer:
   copyright:
   # -------------------------------------------------------------
   # Hexo link (Powered by Hexo).
-  powered: true
+  powered: false
 
   theme:
     # Theme & scheme info link (Theme - NexT.scheme).
-    enable: true
+    enable: false
     # Version info of NexT after scheme info (vX.X.X).
     version: false
   # -------------------------------------------------------------
@@ -180,12 +180,12 @@ social_icons:
 
 # Blog rolls
 #links_icon: link
-#links_title: Links
+links_title: 常用链接 
 #links_layout: block
 #links_layout: inline
-#links:
-# 百度统计: https://mtj.baidu.com/web/welcome/login
-# 腾讯云: https://cloud.tencent.com 
+links:
+ 百度统计: https://mtj.baidu.com/web/welcome/login
+ 腾讯云: https://cloud.tencent.com 
 
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
@@ -270,7 +270,7 @@ symbols_count_time:
   separated_meta: true
   item_text_post: true
   item_text_total: false
-  awl: 5
+  awl: 1
   wpm: 200
 
 # Manual define the border radius in codeblock
@@ -476,11 +476,12 @@ changyan:
 # more info please open https://valine.js.org
 valine:
   enable: false
+  Headerenable: false
   appid:  csxxLMonXkmXqeNR6hfIiL1K-gzGzoHsz
-  appkey:  KYy3XnQmRpcVoDKqBCsjUkLB
+  appkey:  KYy3XnQmRpcVodKqBCsjUkLB
   notify: false # mail notifier , https://github.com/xCss/Valine/wiki
   verify: false # Verification code
-  placeholder: Just go go # comment box placeholder
+  placeholder: ヾﾉ≧∀≦)o来啊，评论啊! # comment box placeholder
   avatar: mm # gravatar style
   guest_info: nick,mail,link # custom comment header
   pageSize: 10 # pagination size
@@ -515,7 +516,8 @@ gitment:
 #    button | slide
 # Warning: Baidu Share does not support https.
 #baidushare:
-##  type: button
+ # enable: false
+  #type: button
 
 # Share
 # This plugin is more useful in China, make sure you known how to use it.
@@ -524,7 +526,7 @@ gitment:
 #jiathis:
   ##uid: Get this uid from http://www.jiathis.com/
 
-#add_this_id:
+add_this_id: ra-5abf7c17233abc9c
 
 # NeedMoreShare2
 # Dependencies: https://github.com/theme-next/theme-next-needmoreshare2
@@ -616,7 +618,8 @@ rating:
 # Show number of visitors to each article.
 # You can visit https://leancloud.cn get AppID and AppKey.
 leancloud_visitors:
-  enable: true
+  enable: false
+  Headerenable: false
   app_id: csxxLMonXkmXqeNR6hfIiL1K-gzGzoHsz
   app_key: KYy3XnQmRpcVodKqBCsjUkLB
   # Dependencies: https://github.com/theme-next/hexo-leancloud-counter-security
@@ -638,10 +641,10 @@ firestore:
 # Show Views/Visitors of the website/page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi/
 busuanzi_count:
-  enable: false
-  total_visitors: true
+  enable: true
+  total_visitors: false
   total_visitors_icon: user
-  total_views: true
+  total_views: false
   total_views_icon: eye
   post_views: true
   post_views_icon: eye
@@ -689,7 +692,7 @@ algolia_search:
 # Local search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: false
+  enable: true
   # if auto, trigger search by changing input
   # if manual, trigger search by pressing enter key or search button
   trigger: auto
@@ -779,7 +782,7 @@ motion:
 # Please, choose only any one variant, do not need to install both.
 # For install 2.x: https://github.com/theme-next/theme-next-fancybox
 # For install 3.x: https://github.com/theme-next/theme-next-fancybox3
-fancybox: false
+fancybox: true
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-fastclick
@@ -787,7 +790,7 @@ fastclick: false
 
 # Added switch option for separated repo in 6.0.0.
 # Dependencies: https://github.com/theme-next/theme-next-jquery-lazyload
-lazyload: false
+lazyload: true
 
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
@@ -938,8 +941,8 @@ vendors:
   reading_progress:
 
   # valine comment
-  # Example: https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
-  valine:
+  valine:  https://cdn.jsdelivr.net/npm/valine@1.1.8/dist/Valine.min.js
+
 
 
 # Assets
