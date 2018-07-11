@@ -9,7 +9,7 @@ tags:
 
 ## 用户配置
 ```shell
-git config --global user.name "your nme"   #以我的账户为例
+git config --global user.name "your name"   #以我的账户为例
 git config --global user.email "email_name@gmail.com"
 git config --global core.editor vim    #非必需的命令
 ```
@@ -36,7 +36,7 @@ git commit -a -m "trivial modification"
 ```shell
 git remote -v    #查看远程地址
 git remote rm origin    #删除原推送地址
-git add remote origin git@github.com:user_name/repositories.git
+git remote add origin git@github.com:user_name/repositories.git
 ```
 如何设置SSH Keys [请到此处](https://www.digitalocean.com/community/tutorials/how-to-set-up-ssh-keys--2 "请到此处")
 ## 设置socks代理
